@@ -24,7 +24,7 @@ form_thirdwindow = uic.loadUiType(form_third)[0]
 form_fourth = resource_path('btn3_window.ui') #preset
 form_fourthwindow = uic.loadUiType(form_fourth)[0]
 
-
+###
 
 form_error1 = resource_path('error1.ui') #error1
 form_errorwindow1 = uic.loadUiType(form_error1)[0]
@@ -113,7 +113,7 @@ class secondwindow(QDialog,QWidget,form_secondwindow): #hairstyle
 
     def addimageRes(self):
         if(self.isPic1 and self.isPic2):
-            pass
+            pass #합성하고 이미지 출력 self.hairstyleResultImg.setPixmap()이용
         else:
             self.error3 = errorwindow3() #원본 또는 스타일 이미지 없이 합성 누를때
     
@@ -161,7 +161,7 @@ class thirdwindow(QDialog,QWidget,form_thirdwindow): #dye
 
     def addimageRes(self):
         if(self.isPic1 and self.isPic2):
-            pass
+            pass #합성하고 이미지 출력 self.dyeResultImg.setPixmap()이용
         else:
             self.error3 = errorwindow3() #원본 또는 스타일 이미지 없이 합성 누를때
     
@@ -196,7 +196,7 @@ class fourthwindow(QDialog,QWidget,form_fourthwindow): #preset
 
     def addimageRes(self):
         if(self.isPic):
-            pass
+            pass #합성하고 이미지 출력 self.presetResultImg.setPixmap()이용
         else:
             self.error3 = errorwindow3() #원본 또는 스타일 이미지 없이 합성 누를때
     

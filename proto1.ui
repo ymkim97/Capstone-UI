@@ -100,6 +100,9 @@
      <string notr="true">QPushButton{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.857143, y2:0.857955, stop:0 rgba(10, 242, 251, 255), stop:1 rgba(224, 6, 159, 255));
 	border-radius: 20px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: black;
 }
  QPushButton:pressed {
      background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.857143, y2:0.857955, stop:0 rgba(224, 6, 159, 255), stop:1 rgba(10, 242, 251, 255));
@@ -130,6 +133,9 @@
      <string notr="true">QPushButton{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.857143, y2:0.857955, stop:0 rgba(10, 242, 251, 255), stop:1 rgba(224, 6, 159, 255));
 	border-radius: 20px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: black;
 }
  QPushButton:pressed {
      background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.857143, y2:0.857955, stop:0 rgba(224, 6, 159, 255), stop:1 rgba(10, 242, 251, 255));
@@ -248,7 +254,7 @@
      <x>0</x>
      <y>0</y>
      <width>761</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>
