@@ -91,7 +91,7 @@ class secondwindow(QDialog,QWidget,form_secondwindow): #hairstyle
         global hairstyleOriginal_file
         hairstyleOriginal_file = QtWidgets.QFileDialog.getOpenFileName(self, 'Open File')
         
-        if(hairstyleOriginal_file):
+        if(hairstyleOriginal_file[0]):
             self.addimage1()
             self.isPic1 = 1
         
@@ -99,7 +99,7 @@ class secondwindow(QDialog,QWidget,form_secondwindow): #hairstyle
     def fileopen2(self):
         global hairStyle_file
         hairStyle_file = QtWidgets.QFileDialog.getOpenFileName(self, 'Open File')
-        if(hairStyle_file):
+        if(hairStyle_file[0]):
             self.addimage2()
             self.isPic2 = 1
 
@@ -140,14 +140,14 @@ class thirdwindow(QDialog,QWidget,form_thirdwindow): #dye
     def fileopen1(self):
         global dyeOriginal_file
         dyeOriginal_file = QtWidgets.QFileDialog.getOpenFileName(self, 'Open File')
-        if(dyeOriginal_file):
+        if(dyeOriginal_file[0]):
             self.addimage1()
             self.isPic1 = 1
         
     def fileopen2(self):
         global dyeStyle_file
         dyeStyle_file = QtWidgets.QFileDialog.getOpenFileName(self, 'Open File')
-        if(dyeStyle_file):
+        if(dyeStyle_file[0]):
             self.addimage2()
             self.isPic2 = 1
 
@@ -186,7 +186,7 @@ class fourthwindow(QDialog,QWidget,form_fourthwindow): #preset
     def fileopen(self):
         global preset_file
         preset_file = QtWidgets.QFileDialog.getOpenFileName(self, 'Open File')
-        if(preset_file):
+        if(preset_file[0]):
             self.addimage()
             self.isPic = 1
 
