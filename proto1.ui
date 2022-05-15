@@ -32,6 +32,15 @@
       <pointsize>20</pointsize>
      </font>
     </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -185,6 +194,9 @@
     <property name="frameShape">
      <enum>QFrame::Box</enum>
     </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Made by Master Carry&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -270,7 +282,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>228</x>
-     <y>124</y>
+     <y>186</y>
     </hint>
     <hint type="destinationlabel">
      <x>329</x>
@@ -286,7 +298,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>232</x>
-     <y>202</y>
+     <y>256</y>
     </hint>
     <hint type="destinationlabel">
      <x>331</x>
@@ -302,7 +314,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>261</x>
-     <y>273</y>
+     <y>326</y>
     </hint>
     <hint type="destinationlabel">
      <x>336</x>
